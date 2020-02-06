@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Galeria from './componentes/galeria/galeria';
+import Modal from './componentes/galeria/modal';
 
 
 
@@ -8,8 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>DATOS PERSONALES</h1>
-        <DatosPersonales/>
+        <modal/>
         <Galeria/>
         </header>
 </div>
